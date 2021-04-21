@@ -1,0 +1,280 @@
+body{
+  font-family: 'Noto Sans', Arial, sans-serif;
+  background: #ede6e6;
+}
+
+.header{
+  text-align: center;
+}
+
+.header p{
+	font-size: 3rem;
+	margin-left: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-about{
+    
+  display: grid;  
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "text text"
+    "software software"
+    "softxt softimg"
+    "media media"
+    "mediaimg mediatxt";
+}
+
+.portfolio-info{
+    
+  display: grid;  
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "freelance freelance"
+    "cnt1 img1"
+    "img2 cnt2"
+    "cnt3 img3"
+    "develop develop"
+    "develop-txt develop-link"
+    "design design"
+    "design-txt design-link";
+}
+
+img{
+  height: 400px;
+  width: 400px;
+}
+
+.freelance{
+  grid-area: freelance;
+  background-color: #e3c1c1;
+  padding: 1rem;
+  text-align: center;
+}
+
+.cnt1{
+  grid-area: cnt1;
+  padding: 1rem;
+  text-align: center;
+  margin-top:10%;
+}
+
+.img1{
+  grid-area: img1;
+  padding: 1rem;
+  text-align: center;
+  margin:20px;
+   background-color: #e3c1c1;
+}
+
+.img2{
+  grid-area: img2;
+  padding: 1rem;
+  text-align: center;
+  margin-left:25%;
+  margin-top:5%;
+   background-color: #e3c1c1;
+  
+}
+
+.img3{
+  grid-area: img3;
+  padding: 1rem;
+  text-align: center;
+  margin-top:5%;
+   background-color: #e3c1c1;
+}
+
+.cnt2{
+  grid-area: cnt2;
+  padding: 1rem;
+  text-align: center;
+  margin-right:35%;
+  margin-top:12%;
+}
+
+.cnt3{
+  grid-area: cnt3;
+  padding: 1rem;
+  text-align: center;
+  margin-top:10%;
+}
+
+.develop{
+  grid-area: develop;
+  padding: 1rem;
+  text-align: center;
+  background-color: #e3c1c1;
+}
+
+.develop-txt{
+  grid-area: develop-txt;
+  padding: 2rem;
+}
+
+.develop-link{
+  grid-area: develop-link;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.design{
+  grid-area: design;
+  padding: 1rem;
+  text-align: center;
+  background-color: #e3c1c1;
+}
+
+.design-txt{
+  grid-area: design-txt;
+  padding: 2rem;
+}
+
+.design-link{
+  grid-area: design-link;
+  text-align: center;
+  margin-top: 4%;
+}
+
+
+.txt h2{
+  text-align: center;
+  background-color: #e3c1c1;
+}
+
+.main{
+  display: grid;  
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "txt txt profile";
+}
+
+.txt{
+  grid-area: txt;
+  padding:2rem;
+}
+
+.profile{
+  grid-area: profile;
+  padding:2rem;
+}
+
+.profile img{
+  padding:1rem;
+}
+
+
+.text{
+  grid-area: text;
+  padding:1rem;
+}
+
+.software{
+  grid-area: software;
+  background-color: #e3c1c1;
+  padding:1rem;
+}
+
+.softxt{
+  grid-area: softxt;
+  padding:1rem;
+  margin:3rem;
+}
+
+.softimg{
+  margin-left:9rem;
+}
+
+.media{
+  grid-area: media;
+  background-color: #e3c1c1;
+  padding:1rem;
+}
+
+.mediaimg{
+  grid-area: mediaimg;
+  padding:1rem;
+  margin-left:10rem;
+}
+
+.mediatxt{
+  grid-area: mediatxt;
+  padding:1rem;
+  margin:3rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e3c1c1;
+}
+
+li {
+  float: left;
+   margin-left:10%;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.active {
+  background-color: #eddddd;
+}
+
+.main-contact{
+  text-align: center;
+}
+
+.main-about h2{
+  text-align: center;
+
+}
+
+.main-about img{
+  width:400px;
+  height: 300px;
+
+}
+
+.info{
+  background-color: #e3c1c1;
+  padding: 10px;
+}
+
+.resume h1{
+  text-align: center;
+  background-color: #e3c1c1;
+  padding: 5px;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+.footer img{
+	height: 50px;
+	width: 50px;
+	margin-left:10px;
+}
+
+footer h3{
+	margin-left:10px;
+}
+
+footer {
+  text-align: center;
+	background-color: #e3c1c1;
+	padding:1rem;
+	margin-top: 20px;
+}
